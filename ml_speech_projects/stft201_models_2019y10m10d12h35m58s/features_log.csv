@@ -1,0 +1,16 @@
+data path,./train_data
+limit,False
+features,stft
+num original features,201
+num total features,201
+delta,False
+dominant frequency,False
+noise,False
+beginning silence removal,True
+timesteps,5
+context window,5
+num classes,10
+time stamp,2019y10m10d12h35m58s
+duration in minutes,1.17
+class fewest samples,p361
+max num samps per class,10

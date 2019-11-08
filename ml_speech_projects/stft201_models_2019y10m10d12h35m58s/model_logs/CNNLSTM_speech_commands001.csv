@@ -1,0 +1,33 @@
+model type,cnnlstm
+epochs,100
+num lstm cells,201
+cnn feature maps,32
+cnn kernel size,"(8, 4)"
+cnn maxpooling pool size,"(3, 3)"
+optimizer,sgd
+num training data,4400
+label 4.0 representation in training,433
+label 1.0 representation in training,433
+label 5.0 representation in training,433
+label 7.0 representation in training,433
+label 9.0 representation in training,434
+label 6.0 representation in training,434
+label 3.0 representation in training,434
+label 0.0 representation in training,433
+label 2.0 representation in training,432
+label 8.0 representation in training,432
+label 0.0 representation in validation,56
+label 6.0 representation in validation,55
+label 5.0 representation in validation,55
+label 9.0 representation in validation,55
+label 8.0 representation in validation,55
+label 3.0 representation in validation,55
+label 4.0 representation in validation,55
+label 1.0 representation in validation,55
+label 2.0 representation in validation,55
+label 7.0 representation in validation,55
+loss type,sparse_categorical_crossentropy
+activation output,softmax
+test acc,80.0
+test loss,0.54
+duration in minutes,2.875
