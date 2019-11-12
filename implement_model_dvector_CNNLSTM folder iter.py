@@ -427,7 +427,9 @@ def main(project_head_folder,model_name):
         print("=================")
         print("")
 
-    
+
+    if (identification_try_total == 0 or verification_try_total == 0): return None
+
     print("총 합계 계산..")
     print("identification 성공횟수: {}, 실패횟수: {}, 총 시도 횟수: {}, 성공률: {}%".format(identification_try_success,identification_try_fail,identification_try_total,(identification_try_success/identification_try_total)*100))
     print("verification 성공횟수: {}, 실패횟수: {}, 총 시도 횟수: {}, 성공률: {}%".format(verification_try_success,
