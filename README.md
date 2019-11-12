@@ -8,6 +8,7 @@
 ----
 https://github.com/a-n-rose/Build-CNN-or-LSTM-or-CNNLSTM-with-speech-features
 https://github.com/jymsuper/SpeakerRecognition_tutorial
+https://github.com/Atul-Anand-Jha/Speaker-Identification-Python
 
 사용한 data file
 ----
